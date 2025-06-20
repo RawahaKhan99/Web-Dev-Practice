@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        * {
+            background-color: azure;
+        }
+        .color {
+
+            background-color: aqua;
+        }
+
+        .red {
+            width: 1200px;
+            border: 15px solid blue;
+            padding: 50px;
+            margin: 20px;
+            text-align: center;
+        }
+        .blue {
+            width: 1200px;
+            border: 15px solid lightcoral;
+            padding: 50px;
+            margin: 20px;
+            text-align: center;
+            box-sizing: border-box; /* By doing so, both padding & border become a part of the given height, it will no longer remain the height of the content only! */
+        }
+    </style>
+
+    <!-- Total element width = width + left padding + right padding + left border + right border -->
+    <!-- Total element height = height + top padding + bottom padding + top border + bottom border -->
+
+</head>
+<body>
+
+    <div class="color red">
+        This is a div
+    </div>
+
+    <div class="color blue">
+        This is another div
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+One of the topics of CSS that makes a person confused is about the application of the property on a specific tag while miltiple properties from CSS from different means are assigned similar to that tag.
+Imagine if you created a tag <h1>CSS specificity</h2>. Now with the help of CSS, you modified the element with color property and that you are overwriting it multiple times. The last types property will applied.

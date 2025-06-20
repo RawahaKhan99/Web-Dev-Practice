@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <h1>Admission Form</h1>
+        <form action="post">
+            <label for="username">Enter your name</label>
+            <input type="text" placeholder="Enter your name", name="username", id="username">
+            <br>
+            <label for="valid1">
+                <input type="radio" value="Gamer" name="Profession" id="valid1"> Gamer
+            </label>
+
+            <label for="valid2">
+                <input type="radio" value="Musician", name="Profession" id="valid2"> Musician
+            </label>
+
+            <label for="valid3">
+                <input type="radio" value="Programmer" name="Profession" id="valid3"> Programmer
+            </label><br>
+            <label for="valid4">
+                <input type="checkbox" class="red" name="Certification" id="valid4"> I have a Degree
+            </label><br>
+            <textarea name="why" id="details" cols="30" rows="10" placeholder="Explain why you wanna enroll?"></textarea>
+            <select name="Laptops" id="Laptops">
+                <option value="default(no car)">Select your comapany</option>
+                <option value="comapany">Dell</option>
+                <option value="comapany">Asus</option>
+                <option value="comapany">HP</option>
+                <option value="comapany">Lenovo</option>
+                <option value="comapany">Apple</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>
