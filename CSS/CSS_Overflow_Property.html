@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 30vw;
+            height: 40vh;
+            border: 2px solid black;
+            /* ============================================== */
+            overflow: scroll; /* This will add a scrollbar always */
+            overflow: hidden; /* This will hide the overflow content */
+            overflow: auto; /* This will add a scrollbar only when necessary */
+            overflow-x: hidden; /* This will hide horizontal overflow */
+            overflow-y: scroll; /* This will add a vertical scrollbar always */
+            white-space: nowrap; /* This will prevent text from wrapping */
+            text-overflow: ellipsis; /* This will add an ellipsis (...) when text overflows */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">I am a boy and I love to write Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis hic natus cumque earum incidunt, nobis soluta. Similique, dignissimos neque libero facere sed magni quasi tempore non nisi quia quo numquam illo hic laborum ex in accusamus nulla est sit dicta quod molestiae quisquam excepturi iste.</div>
+</body>
+</html>
